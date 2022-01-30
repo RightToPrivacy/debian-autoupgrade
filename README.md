@@ -18,13 +18,13 @@ and enjoy your automatic upgrades
 
 Should work on all Debian based Linux systems including:
 
-Armbian
-Mobian (Pinephone/Librem5)
-Debian Linux OS
-Parrot Linux OS
-Linux Mint
-Ubuntu
-Rapberry OS (Raspbian)
+* Armbian
+* Mobian (Pinephone/Librem5)
+* Debian Linux OS
+* Parrot Linux OS
+* Linux Mint
+* Ubuntu
+* Rapberry OS (Raspbian)
 
 and any other Debian based system.
 
