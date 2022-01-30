@@ -1,0 +1,8 @@
+[Unit]
+Description=System Upgrade Service (Autoupgrade)
+
+[Service]
+ExecStart=/usr/sbin/deb-upgrade
+
+[Install]
+WantedBy=multi-user.target
