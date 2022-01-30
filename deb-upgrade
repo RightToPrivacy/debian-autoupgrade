@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Debian based OS automatic upgrades
+#
+# based on my bash scripting tutorial
+# video example
+#
+# found at: https://odysee.com/@RTP:9/linux-lesson-bash-scripting-taking-input:3
+#
+# Main Blog: https://buymeacoffee.com/politictech/posts
+#
+# Simple systemd service but does the job (updates to this later)
+#
+echo "Updating..."
+sleep .5
+echo ''
+apt update
+dpkg --configure -a
+apt --fix-missing --fix-broken install
+apt full-upgrade -y
+echo ''
+sleep .5
+echo "Upgrade Finished."
