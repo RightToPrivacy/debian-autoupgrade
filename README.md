@@ -4,6 +4,9 @@ Automatic upgrades for Debian as a Systemd Service
 based on my "beginner shell scripting" (off the cuff idea) video: 
 ' https://odysee.com/@RTP/linux-lesson-bash-scripting-taking-input '
 
+See Main Blog (Public) Here: https://buymeacoffee.com/politictech/posts
+Mirrors (some posts): https://politictech.wordpress.com
+
 Simply run:
 
     sudo bash install.sh 
